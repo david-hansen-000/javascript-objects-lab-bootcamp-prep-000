@@ -1,4 +1,4 @@
-var recipe = {
+var recipes = {
   bread: "2 slices",
   peanutbutter: "big spoonfull",
   jelly : "little bit less than peanutbutter"
