@@ -27,6 +27,7 @@ function destructivelyDeleteFromObjectByKey(obj, key) {
   console.log("newObj:"+Object.keys(newObj));
   console.log("obj:"+Object.keys(obj));
   delete obj[key];
+  console.log("newObj after:"+Object.keys(newObj));
    console.log("obj after:"+Object.keys(obj));
   return newObj;
 }
